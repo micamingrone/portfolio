@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+body {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 900px;
+    width: 100%;
+}
+
+.nav-item a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #bf2c61;
+}
+
+.btn-style {
+    background-color: #bf2c61;
+    color: #fff;
+    border-radius: 10px 100px / 120px;
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 30px;
+}
+
+.btn-contactame {
+    margin-top: 130px;
+}
+
+.title {
+    margin-top: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10rem;
+    font-weight: 800;
+    color: #bf2c61
+}
+
+.subtitle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
+}
+
+.title-main {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
+}
+
+.principal {
+    height: 1600px;
+    background-color: #bf2c61;
+}
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.7rem;
+    padding-top: 5rem;
+}
+
+.descripcion {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 140px;
+    color: #d3dde6;
+}
+
+.img-desk {
+    display: flex;
+    justify-content: end;
+}
+
+.imagen-icono {
+    display: block;
+    margin: 20px auto;
+}
+
+.habilidades {
+    padding: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
+}
+
+.texto-habilidades {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 140px;
+    color: #bf2c61;
+}
+
+.proyectos {
+    background-color: #d3dde6;
+    height: 1920px;
+}
+
+
+/*Cards - Estilos */
+
+@media (max-width:767px) {
+    h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.box {
+    box-shadow: -8px 15px 44px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -8px 15px 44px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 15px 44px 0px rgba(0, 0, 0, 0.75);
+}
+
+.people {
+    padding: 50px 0;
+    cursor: pointer;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bf2c61;
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover .cover {
+    opacity: 1;
+}
+
+.item .name {
+    font-weight: bold;
+    margin-bottom: 35px;
+    font-size: 1.1rem;
+}
+
+.item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bbd8fb;
+    letter-spacing: 2px;
+    font-size: 13px;
+    /* margin-bottom: 10px; */
+}
+
+.social {
+    font-size: 18px;
+}
+
+.social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+
+/*Cards - Estilos */
+
+.btn-styled {
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 30px;
+    border-radius: 12%;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #bf2c61;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.btn-styled::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #bf2c61;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.btn-styled:hover {
+    color: #e8e8e8;
+}
+
+.btn-styled:hover::before {
+    width: 100%;
+}
+
+.card-contacto {
+    background-color: #bf2c61;
+}
+
+.formulario {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+footer {
+    background-color: #bf2c61;
+    color: #e8e8e8;
+    height: 120px !important;
+    width: 100% !important;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+/*Medias query*/
+
+@media screen and (min-width: 768px) {
+    .btn-micv {
+        margin-right: 85px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titulo_celular {
+        text-align: center !important;
+        padding-top: 30px
+    }
+    .img-portada {
+        display: none;
+    }
+    .title {
+        margin-top: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8rem !important;
+        color: #bf2c61
+    }
+    .wrapper {
+        height: 728px;
+        width: 100%;
+    }
+    .btn-contactame {
+        margin-top: 50px;
+    }
+    .img-perfil {
+        display: block;
+        text-align: center;
+    }
+    .principal {
+        height: 3600px;
+        background-color: #287094;
+    }
+    .habilidades {
+        padding: 16px;
+    }
+    .descripcion {
+        margin-top: 25px;
+    }
+    .proyectos {
+        height: 3550px;
+    }
+    footer {
+        height: 130px;
+    }
+}
