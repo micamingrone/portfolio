@@ -75,7 +75,7 @@
             <h1 class="titulo_celular text-center">¿Quién soy?</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-6 mt-5">
-                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/img-mica2.svg" alt="imagen de micaela mingrone" style="
+                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/img-mica-ilu.svg" alt="imagen de micaela mingrone" style="
                     height: 450px;">
                 </div>
 
