@@ -180,7 +180,7 @@
                 <div class="col-md-4 col-lg-3 item">
                     <div class="box" style="background-image:url(img/card-burbuja.png); background-repeat:no-repeat;">
                         <div class="cover">
-                            <h3 class="name">Jard{in Burbujas de Algodón</h3>
+                            <h3 class="name">Jardín Burbujas de Algodón</h3>
                             <p class="title-card">Proyecto de "IdForIdeas" donde desarrollé una landing page institucional con HTML, CSS, Bootstrap y Javascript. Además, realicé la identidad visual y el diseño de la misma.</p>
                         </div>
                     </div>
