@@ -75,12 +75,12 @@
             <h1 class="titulo_celular text-center">¿Quién soy?</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-6 mt-5">
-                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/mica-ilu.png" alt="imagen de micaela mingrone" style="
+                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/mica-ilus.png" alt="imagen de micaela mingrone" style="
                     height: 450px;">
                 </div>
 
                 <div class="descripcion col-sm-12 col-md-6 text-center">
-                        <p id="reveal">👋 Hola, mi nombre es Micaela. <br/> Tengo 36 años, soy de Buenos Aires, Argentina.<br/><br/>
+                        <p id="reveal">Hola, mi nombre es Micaela. <br/> Tengo 36 años, soy de Buenos Aires, Argentina.<br/><br/>
                         Me defino como muy curiosa, metódica y analítica.<br/>
                         Disfruto de los desafíos, me gusta mucho estudiar,<br/> enseñar y aprender. <br/>
                         Resposable y comprometida, comunicarme acertivamente y saber trabajar en equipo son algunas de mis cualidades.<br/>
