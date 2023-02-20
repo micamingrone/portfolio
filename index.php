@@ -75,7 +75,7 @@
             <h1 class="titulo_celular text-center">¿Quién soy?</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-6 mt-5">
-                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/mick.svg" alt="imagen de micaela mingrone" style="
+                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/img-mica2.svg" alt="imagen de micaela mingrone" style="
                     height: 450px;">
                 </div>
 
@@ -182,14 +182,14 @@
             </div>
             <div class="row people d-flex justify-content-center">
                 <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(../portfolio/img/card-3.png); background-repeat:no-repeat;">
+                    <div class="box" style="background-image:url(../portfolio/img/card-burbuja.png); background-repeat:no-repeat;">
                         <div class="cover">
-                            <h3 class="name">Up-Task - Gestor de proyectos</h3>
-                            <p class="title-card">Desarrollado con NodeJs utilizando MVC,utilizando herramientas como Pug, Sequelize, SweetAlert, entre otros.</p>
+                            <h3 class="name">Jard{in Burbujas de Algodón</h3>
+                            <p class="title-card">Proyecto de "IdForIdeas" donde desarrollé una landing page institucional con HTML, CSS, Bootstrap y Javascript. Además, realicé la identidad visual y el diseño de la misma.</p>
                         </div>
                     </div>
                     <form class="d-flex justify-content-center">
-                        <a class="btn btn-styled btn-sm btn mb-3" href="https://github.com/micamingrone/upTask-proyect">Ver +</a>
+                        <a class="btn btn-styled btn-sm btn mb-3" href="https://landing-jardin.vercel.app/">Ver +</a>
                     </form>
                 </div>
                 <div class="col-md-4 col-lg-3 item">

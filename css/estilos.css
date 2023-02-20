@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
 body {
     box-sizing: border-box;
 }
@@ -46,7 +47,7 @@ a:focus {
 
 .title {
     margin-top: 150px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 10rem;
     font-weight: 800;
     color: #bf2c61
@@ -74,7 +75,7 @@ h1 {
 }
 
 .descripcion {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 100;
@@ -99,7 +100,7 @@ h1 {
 }
 
 .texto-habilidades {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 100;
@@ -257,6 +258,10 @@ footer {
     font-family: 'JetBrains Mono', monospace;
 }
 
+i {
+    color: #e8e8e8;
+}
+
 
 /*Medias query*/
 
@@ -276,7 +281,7 @@ footer {
     }
     .title {
         margin-top: 50px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 8rem !important;
         color: #bf2c61
     }
