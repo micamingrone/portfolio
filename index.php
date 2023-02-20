@@ -75,7 +75,7 @@
             <h1 class="titulo_celular text-center">¿Quién soy?</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-6 mt-5">
-                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/img-mica-ilu.svg" alt="imagen de micaela mingrone" style="
+                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/mica-ilu.png" alt="imagen de micaela mingrone" style="
                     height: 450px;">
                 </div>
 
@@ -146,7 +146,7 @@
         
         <div class="row people d-flex justify-content-center" id="scroll-cards">
                 <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(../portfolio/img/card-1.png); background-repeat:no-repeat;">
+                    <div class="box" style="background-image:url(img/card-1.png); background-repeat:no-repeat;">
                         <div class="cover">
                             <h3 class="name">Página Web + panel de administrador</h3>
                             <p class="title-card">Realizado con Bootstrap y PHP</p>
@@ -157,7 +157,7 @@
                     </form>
                 </div>
                 <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(../portfolio/img/card-2.png)">
+                    <div class="box" style="background-image:url(img/card-2.png)">
                         <div class="cover">
                             <h3 class="name">Piedra, papel o tijera</h3>
                             <p class="title-card">Juego que realicé para practicar <br/>Javascript vainilla</p>
@@ -168,7 +168,7 @@
                     </form>
                 </div>
                 <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(../portfolio/img/card-4.png)">
+                    <div class="box" style="background-image:url(img/card-4.png)">
                         <div class="cover">
                             <h3 class="name">ToDo List</h3>
                             <p class="title-card">App de consola utilizando NodeJs y otros paquetes como Colors e Inquirer</p>
@@ -182,7 +182,7 @@
             </div>
             <div class="row people d-flex justify-content-center">
                 <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(../portfolio/img/card-burbuja.png); background-repeat:no-repeat;">
+                    <div class="box" style="background-image:url(img/card-burbuja.png); background-repeat:no-repeat;">
                         <div class="cover">
                             <h3 class="name">Jard{in Burbujas de Algodón</h3>
                             <p class="title-card">Proyecto de "IdForIdeas" donde desarrollé una landing page institucional con HTML, CSS, Bootstrap y Javascript. Además, realicé la identidad visual y el diseño de la misma.</p>
@@ -193,7 +193,7 @@
                     </form>
                 </div>
                 <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(../portfolio/img/card-5.png)">
+                    <div class="box" style="background-image:url(img/card-5.png)">
                         <div class="cover">
                             <h3 class="name">Clima App</h3>
                             <p class="title-card">Reversión de la app de consola,en javascript vainilla utilizando fetch para la obtención de datos. El front realizado con Bootstrap y Css</p>
@@ -204,7 +204,7 @@
                     </form>
                 </div>
                 <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(../portfolio/img/card-6.png)">
+                    <div class="box" style="background-image:url(img/card-6.png)">
                         <div class="cover">
                             <h3 class="name">App del clima en consola</h3>
                             <p class="title-card">App donde utilicé la API de Open weather y MapBox para obtener los datos. Realizado en NodeJs, utilizando los paquetes Colors e Inquierer</p>
