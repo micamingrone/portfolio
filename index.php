@@ -85,10 +85,6 @@
                         Disfruto de los desafíos, me gusta mucho estudiar,<br/> enseñar y aprender. <br/>
                         Resposable y comprometida, comunicarme acertivamente y saber trabajar en equipo son algunas de mis cualidades.<br/>
                         Idear, diseñar y programar aplicaciones web <br/>hoy es mi gran pasión.</p>
-
-                        <form class="d-flex justify-content-center">
-                            <a class="btn btn-style btn-lg btn" href="#" id="reveal">Más sobre mí</a>
-                        </form>
                 </div>
             </div>
             <h2 class="habilidades text-center mt-5">{Habilidades y conocimientos/}</h2>
