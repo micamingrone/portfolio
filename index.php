@@ -44,7 +44,7 @@
     </header>
 <section class="wrapper">
     <div class="container">
-             <img src="img/asd.svg" class="col-md-6 float-md-end mb-3 mb-sm-0 ms-md-3 img-fluid img-portada" alt="">
+             <img src="img/hero.svg" class="col-md-6 float-md-end mb-3 mb-sm-0 ms-md-3 img-fluid img-portada" alt="">
              <div class="row">  
                  <div class="col-sm-12 d-flex justify-content-center text-center">
                      <p class="title">¡hola!</p>
@@ -72,22 +72,24 @@
 
     <section class="principal" id="scroll-1">
         <div class="container">
-            <h1 class="titulo_celular text-center">¿Quién soy?</h1>
+            <h1 class="habilidades text-center mt-5">¿Quién soy?</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-6 mt-5">
                     <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/mica-ilus.png" alt="imagen de micaela mingrone" style="
-                    height: 450px;">
+                    height: 550px;">
                 </div>
 
                 <div class="descripcion col-sm-12 col-md-6 text-center">
-                        <p id="reveal">Hola, mi nombre es Micaela. <br/> Tengo 36 años, soy de Buenos Aires, Argentina.<br/><br/>
+                        <!-- <p id="reveal">Hola, mi nombre es Micaela. <br/> Tengo 36 años, soy de Buenos Aires, Argentina.<br/><br/>
                         Me defino como muy curiosa, metódica y analítica.<br/>
                         Disfruto de los desafíos, me gusta mucho estudiar,<br/> enseñar y aprender. <br/>
                         Resposable y comprometida, comunicarme acertivamente y saber trabajar en equipo son algunas de mis cualidades.<br/>
-                        Idear, diseñar y programar aplicaciones web <br/>hoy es mi gran pasión.</p>
+                        Idear, diseñar y programar aplicaciones web <br/>hoy es mi gran pasión.</p> -->
+                        <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/texto3.png" alt="imagen de micaela mingrone" style="
+                    height: 550px;">
                 </div>
             </div>
-            <h2 class="habilidades text-center mt-5">{Habilidades y conocimientos/}</h2>
+            <h2 class="habilidades text-center mt-5">Habilidades y conocimientos</h2>
                 <div class="descripcion col-sm-12 mt-5 text-center">
                         <p id="reveal">Durante los últimos años, me especialicé en el uso de las siguientes tecnologías <br/>asistiendo a distintos cursos, bootcamps y en forma autodidácta</p>
                 </div>
@@ -132,10 +134,12 @@
 
         </div> <!-- CONTAINER-->     
     </section>
+
     <!-- Proyectos cards--> 
+
     <section class="proyectos" id="scroll-2">
         <div class="container">
-        <h2 class="habilidades text-center" id="reveal">{Mis proyectos/}</h2>
+        <h2 class="habilidades text-center" id="reveal">Mis proyectos</h2>
                 <div class="texto-habilidades col-sm-12 mt-5 text-center">
                     <p id="reveal">A modo de realizar prácticas que me permitan integrar lo aprendido, estos son algunos de los proyectos que desarrollé</p>
                 </div>
@@ -212,8 +216,8 @@
                 </div>
                 
         <!-- Formulario-->  
-        <h2 class="habilidades text-center">{Contactame/}</h2>
-            <div class="row justify-content-center">
+        <h2 class="habilidades text-center">Contactame</h2>
+        <form class="d-flex justify-content-center">
                 <div class="card-contacto card col-xs-3 col-md-4 mb-4">
                     <div class="card-body">
                         <div class="formulario form">
@@ -244,7 +248,7 @@
                         </div>
                     </div>  
                 </div>    
-            </div>
+</form>              
     </section>
     <!-- Footer--> 
     <section class="footer">
