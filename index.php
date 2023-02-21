@@ -28,17 +28,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                             <a class="nav-link" aria-current="page" href="#">¿Quién soy?</a>
+                             <a class="nav-link" aria-current="page" href="index.php#quien soy">¿Quién soy?</a>
                         </li>
                         <li class="nav-item">
-                             <a class="nav-link" href="#">Habilidades & conocimientos</a>
+                             <a class="nav-link" href="index.php#habilidades">Habilidades & conocimientos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Mis proyectos</a>
+                            <a class="nav-link" href="index.php#proyectos">Mis proyectos</a>
                         </li>
                      </ul>
                         <form class="d-flex">
-                            <button class="btn btn-style btn-micv" type="submit">Mi CV</button>
+                            <a class="btn btn-style btn-micv" href="CV_Micaela_Mingrone.pdf" download>Mi CV</a>
                          </form>
                  </div>
             </div>
@@ -46,6 +46,12 @@
     </header>
 <section class="wrapper">
     <div class="container">
+    <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
              <img src="img/hero.svg" class="col-md-6 float-md-end mb-3 mb-sm-0 ms-md-3 img-fluid img-portada" alt="">
              <div class="row">  
                  <div class="col-sm-12 d-flex justify-content-center text-center">
@@ -62,7 +68,7 @@
                 
                  <div class="col-sm-12 d-flex justify-content-center text-center">
                      <form class="d-flex">
-                         <button class="btn btn-style btn-lg btn-contactame" type="submit">Contactame</button>
+                         <button class="btn btn-style btn-lg btn-contactame" type="submit" href="index.php#form">Contactame</button>
                      </form>
                  </div>
              </div>   
@@ -74,7 +80,7 @@
 
     <section class="principal" id="scroll-1">
         <div class="container">
-            <h1 class="habilidades text-center mt-5">¿Quién soy?</h1>
+            <h1 class="habilidades text-center mt-5" id="quien soy">¿Quién soy?</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-6 mt-5">
                     <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/mica-ilus.png" alt="imagen de micaela mingrone">
@@ -84,45 +90,45 @@
                         <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/texto3.png" alt="imagen de micaela mingrone" >
                 </div>
             </div>
-            <h2 class="habilidades text-center mt-5">Habilidades y conocimientos</h2>
+            <h2 class="habilidades text-center mt-5" id="habilidades">Habilidades y conocimientos</h2>
                 <div class="descripcion col-sm-12 mt-5 text-center">
                         <p id="reveal">Durante los últimos años, me especialicé en el uso de las siguientes tecnologías <br/>asistiendo a distintos cursos, bootcamps y en forma autodidácta</p>
                 </div>
             <div class="row" id="scroll-cards">
-                <div class="col-xs-6 col-md-3 mt-3">
+                <div class="col-3 mt-3">
                     <img src="img/html-5.png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3 mt-3">
+                <div class="col-3 mt-3">
                     <img src="img/css-3.png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3 mt-3">
+                <div class="col-3 mt-3">
                     <img src="img/js(1).png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3 mt-3">
+                <div class="col-3 mt-3">
                     <img src="img/php(1).png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-3">
                     <img src="img/nodejs(1).png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-3">
                     <img src="img/physics.png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-3">
                     <img src="img/mysql(1).png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-3">
                     <img src="img/sql-server(1).png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-3">
                     <img src="img/bootstrap.png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-3">
                     <img src="img/xd.png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-3">
                     <img src="img/photoshop.png" class="img-fluid imagen-icono" alt="">
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-3">
                     <img src="img/github.png" class="img-fluid imagen-icono" alt="">
                 </div>
             </div>
@@ -134,7 +140,7 @@
 
     <section class="proyectos" id="scroll-2">
         <div class="container">
-        <h2 class="habilidades text-center" id="reveal">Mis proyectos</h2>
+        <h2 class="habilidades text-center" id="proyectos">Mis proyectos</h2>
                 <div class="texto-habilidades col-sm-12 mt-5 text-center">
                     <p id="reveal">A modo de realizar prácticas que me permitan integrar lo aprendido, estos son algunos de los proyectos que desarrollé</p>
                 </div>
@@ -211,28 +217,28 @@
                 </div>
                 
         <!-- Formulario-->  
-        <h2 class="habilidades text-center">Contactame</h2>
-        <form class="d-flex justify-content-center">
+        <h2 class="habilidades text-center" id="form">Contactame</h2>
+        <form class="d-flex justify-content-center" onsubmit="enviarFormulario();">
                 <div class="card-contacto card col-xs-3 col-md-4 mb-4">
                     <div class="card-body">
                         <div class="formulario form">
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Nombre</label>    
-                                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" name="nombre">
                             </div>
                     
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="usuario@example.com">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="usuario@example.com" name="email">
                             </div>
                     
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="mensaje"></textarea>
                             </div>
                             <div class="g-recaptcha" data-sitekey="6Ldx6ZwkAAAAAJ2HWr5bBPLDf7dqHNGPeUHDUqL5"></div>
                             <div class="mb-3 text-center">
-                                <a class="btn btn-styled btn-sm mb-3" href="#">Enviar</a>
+                                <button type="button" onclick="enviarFormulario();" class="btn btn-styled btn-sm mb-3">Enviar</button>
                             </div>
             
                         </div>
@@ -249,25 +255,53 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-4 text-center mt-2">
-                    <a href="https://micacp09@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+                    <a href="https://micacp09@gmail.com"><i class="fa-solid fa-envelope fa-2xl" id="i"></i></a>
                 </div>
                 <div class="col-4 text-center mt-2">
-                    <a href="https://www.linkedin.com/in/micamingrone/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href="https://www.linkedin.com/in/micamingrone/"><i class="fa-brands fa-linkedin fa-2xl" id="i"></i></a>
                 </div>
                 <div class="col-4 text-center mt-2">
-                    <a href="https://github.com/micamingrone"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="https://github.com/micamingrone"><i class="fa-brands fa-github fa-2xl" id="i"></i></a>
                 </div>
                 
             </div>
         </div>
     </footer>
 </section>    
-
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="js/axios.min.js"></script>
     <script>
 		ScrollReveal().reveal('#scroll-1', { delay: 200 , duration: 600, easing: 'ease-in', reset: true})
 		ScrollReveal().reveal('#scroll-2', { delay: 500 , duration: 800, easing: 'ease-in', reset: true})
         ScrollReveal().reveal('#scroll-cards', { delay: 500 , interval: 300, duration: 800, easing: 'ease-in', reset: true})
 	</script>
+<script src="boton.js"></script>    
+<script>
+    function enviarFormulario(){
+        let nombre = document.getElementsByName('nombre').value;
+        let email = document.getElementsByName('email').value;
+        let mensaje = document.getElementsByName('mensaje').value;
+        let g_recaptcha_response = document.getElementById('g-recaptcha-response').value;
+        
+        axios.post('formulario.php', {
+            "g-recaptcha-response": g_recaptcha_response,
+            nombre: nombre,
+            email: email,
+            mensaje: mensaje
+        },{
+        headers: {
+      'Content-Type': 'multipart/form-data'
+    }
+  })
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+    }
+    
+</script>
 </body>
 </html>
