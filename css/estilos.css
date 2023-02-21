@@ -87,6 +87,7 @@
     .img-desk {
         display: flex;
         justify-content: end;
+        height: 550px;
     }
     
     .imagen-icono {
@@ -295,8 +296,10 @@
             text-align: center;
         }
         .principal {
-            height: 3750px;
-            background-color: #bf2c61;
+            height: 3500px;
+        }
+        .img-desk {
+            height: 350px;
         }
         .habilidades {
             padding: 16px;
@@ -305,7 +308,7 @@
             margin-top: 25px;
         }
         .proyectos {
-            height: 3750px;
+            height: 3510px;
         }
         footer {
             height: 130px;

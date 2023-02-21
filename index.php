@@ -12,6 +12,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!--CSS-->
     <link href="css/estilos.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <!--Scroll-->
     <script src="https://unpkg.com/scrollreveal"></script>
     </head>
@@ -75,18 +77,11 @@
             <h1 class="habilidades text-center mt-5">¿Quién soy?</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-6 mt-5">
-                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/mica-ilus.png" alt="imagen de micaela mingrone" style="
-                    height: 550px;">
+                    <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/mica-ilus.png" alt="imagen de micaela mingrone">
                 </div>
 
                 <div class="descripcion col-sm-12 col-md-6 text-center">
-                        <!-- <p id="reveal">Hola, mi nombre es Micaela. <br/> Tengo 36 años, soy de Buenos Aires, Argentina.<br/><br/>
-                        Me defino como muy curiosa, metódica y analítica.<br/>
-                        Disfruto de los desafíos, me gusta mucho estudiar,<br/> enseñar y aprender. <br/>
-                        Resposable y comprometida, comunicarme acertivamente y saber trabajar en equipo son algunas de mis cualidades.<br/>
-                        Idear, diseñar y programar aplicaciones web <br/>hoy es mi gran pasión.</p> -->
-                        <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/texto3.png" alt="imagen de micaela mingrone" style="
-                    height: 550px;">
+                        <img class="img-desk img-fluid mb-3 mb-md-0 img-perfil mx-auto" src="img/texto3.png" alt="imagen de micaela mingrone" >
                 </div>
             </div>
             <h2 class="habilidades text-center mt-5">Habilidades y conocimientos</h2>
@@ -230,17 +225,12 @@
                                 <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="usuario@example.com">
                             </div>
-
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
-                                <input type="text" class="form-control" placeholder="Asunto" aria-label="First name">
-                            </div>
-
+                    
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
                             </div>
-
+                            <div class="g-recaptcha" data-sitekey="6Ldx6ZwkAAAAAJ2HWr5bBPLDf7dqHNGPeUHDUqL5"></div>
                             <div class="mb-3 text-center">
                                 <a class="btn btn-styled btn-sm mb-3" href="#">Enviar</a>
                             </div>
